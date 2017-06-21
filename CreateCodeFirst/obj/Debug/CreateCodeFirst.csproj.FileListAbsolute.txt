@@ -1,0 +1,98 @@
+C:\Users\vinicius.nunes\Documents\Visual Studio 2017\Projects\ASP NET MVC WEB API\CreateCodeFirst\CreateCodeFirst\bin\roslyn\csc.exe
+C:\Users\vinicius.nunes\Documents\Visual Studio 2017\Projects\ASP NET MVC WEB API\CreateCodeFirst\CreateCodeFirst\bin\roslyn\csc.exe.config
+C:\Users\vinicius.nunes\Documents\Visual Studio 2017\Projects\ASP NET MVC WEB API\CreateCodeFirst\CreateCodeFirst\bin\roslyn\csc.rsp
+C:\Users\vinicius.nunes\Documents\Visual Studio 2017\Projects\ASP NET MVC WEB API\CreateCodeFirst\CreateCodeFirst\bin\roslyn\csi.exe
+C:\Users\vinicius.nunes\Documents\Visual Studio 2017\Projects\ASP NET MVC WEB API\CreateCodeFirst\CreateCodeFirst\bin\roslyn\csi.rsp
+C:\Users\vinicius.nunes\Documents\Visual Studio 2017\Projects\ASP NET MVC WEB API\CreateCodeFirst\CreateCodeFirst\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\vinicius.nunes\Documents\Visual Studio 2017\Projects\ASP NET MVC WEB API\CreateCodeFirst\CreateCodeFirst\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\vinicius.nunes\Documents\Visual Studio 2017\Projects\ASP NET MVC WEB API\CreateCodeFirst\CreateCodeFirst\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\vinicius.nunes\Documents\Visual Studio 2017\Projects\ASP NET MVC WEB API\CreateCodeFirst\CreateCodeFirst\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\vinicius.nunes\Documents\Visual Studio 2017\Projects\ASP NET MVC WEB API\CreateCodeFirst\CreateCodeFirst\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\vinicius.nunes\Documents\Visual Studio 2017\Projects\ASP NET MVC WEB API\CreateCodeFirst\CreateCodeFirst\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\vinicius.nunes\Documents\Visual Studio 2017\Projects\ASP NET MVC WEB API\CreateCodeFirst\CreateCodeFirst\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\vinicius.nunes\Documents\Visual Studio 2017\Projects\ASP NET MVC WEB API\CreateCodeFirst\CreateCodeFirst\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\vinicius.nunes\Documents\Visual Studio 2017\Projects\ASP NET MVC WEB API\CreateCodeFirst\CreateCodeFirst\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\vinicius.nunes\Documents\Visual Studio 2017\Projects\ASP NET MVC WEB API\CreateCodeFirst\CreateCodeFirst\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\vinicius.nunes\Documents\Visual Studio 2017\Projects\ASP NET MVC WEB API\CreateCodeFirst\CreateCodeFirst\bin\roslyn\System.AppContext.dll
+C:\Users\vinicius.nunes\Documents\Visual Studio 2017\Projects\ASP NET MVC WEB API\CreateCodeFirst\CreateCodeFirst\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\vinicius.nunes\Documents\Visual Studio 2017\Projects\ASP NET MVC WEB API\CreateCodeFirst\CreateCodeFirst\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\vinicius.nunes\Documents\Visual Studio 2017\Projects\ASP NET MVC WEB API\CreateCodeFirst\CreateCodeFirst\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\vinicius.nunes\Documents\Visual Studio 2017\Projects\ASP NET MVC WEB API\CreateCodeFirst\CreateCodeFirst\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\vinicius.nunes\Documents\Visual Studio 2017\Projects\ASP NET MVC WEB API\CreateCodeFirst\CreateCodeFirst\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\vinicius.nunes\Documents\Visual Studio 2017\Projects\ASP NET MVC WEB API\CreateCodeFirst\CreateCodeFirst\bin\roslyn\vbc.exe
+C:\Users\vinicius.nunes\Documents\Visual Studio 2017\Projects\ASP NET MVC WEB API\CreateCodeFirst\CreateCodeFirst\bin\roslyn\vbc.exe.config
+C:\Users\vinicius.nunes\Documents\Visual Studio 2017\Projects\ASP NET MVC WEB API\CreateCodeFirst\CreateCodeFirst\bin\roslyn\vbc.rsp
+C:\Users\vinicius.nunes\Documents\Visual Studio 2017\Projects\ASP NET MVC WEB API\CreateCodeFirst\CreateCodeFirst\bin\roslyn\VBCSCompiler.exe
+C:\Users\vinicius.nunes\Documents\Visual Studio 2017\Projects\ASP NET MVC WEB API\CreateCodeFirst\CreateCodeFirst\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\vinicius.nunes\Documents\Visual Studio 2017\Projects\ASP NET MVC WEB API\CreateCodeFirst\CreateCodeFirst\bin\CreateCodeFirst.dll.config
+C:\Users\vinicius.nunes\Documents\Visual Studio 2017\Projects\ASP NET MVC WEB API\CreateCodeFirst\CreateCodeFirst\bin\CreateCodeFirst.dll
+C:\Users\vinicius.nunes\Documents\Visual Studio 2017\Projects\ASP NET MVC WEB API\CreateCodeFirst\CreateCodeFirst\bin\CreateCodeFirst.pdb
+C:\Users\vinicius.nunes\Documents\Visual Studio 2017\Projects\ASP NET MVC WEB API\CreateCodeFirst\CreateCodeFirst\bin\EntityFramework.dll
+C:\Users\vinicius.nunes\Documents\Visual Studio 2017\Projects\ASP NET MVC WEB API\CreateCodeFirst\CreateCodeFirst\bin\EntityFramework.SqlServer.dll
+C:\Users\vinicius.nunes\Documents\Visual Studio 2017\Projects\ASP NET MVC WEB API\CreateCodeFirst\CreateCodeFirst\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\vinicius.nunes\Documents\Visual Studio 2017\Projects\ASP NET MVC WEB API\CreateCodeFirst\CreateCodeFirst\bin\Newtonsoft.Json.dll
+C:\Users\vinicius.nunes\Documents\Visual Studio 2017\Projects\ASP NET MVC WEB API\CreateCodeFirst\CreateCodeFirst\bin\System.Net.Http.Formatting.dll
+C:\Users\vinicius.nunes\Documents\Visual Studio 2017\Projects\ASP NET MVC WEB API\CreateCodeFirst\CreateCodeFirst\bin\System.Web.Http.dll
+C:\Users\vinicius.nunes\Documents\Visual Studio 2017\Projects\ASP NET MVC WEB API\CreateCodeFirst\CreateCodeFirst\bin\System.Web.Http.WebHost.dll
+C:\Users\vinicius.nunes\Documents\Visual Studio 2017\Projects\ASP NET MVC WEB API\CreateCodeFirst\CreateCodeFirst\bin\EntityFramework.xml
+C:\Users\vinicius.nunes\Documents\Visual Studio 2017\Projects\ASP NET MVC WEB API\CreateCodeFirst\CreateCodeFirst\bin\EntityFramework.SqlServer.xml
+C:\Users\vinicius.nunes\Documents\Visual Studio 2017\Projects\ASP NET MVC WEB API\CreateCodeFirst\CreateCodeFirst\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\vinicius.nunes\Documents\Visual Studio 2017\Projects\ASP NET MVC WEB API\CreateCodeFirst\CreateCodeFirst\bin\Newtonsoft.Json.xml
+C:\Users\vinicius.nunes\Documents\Visual Studio 2017\Projects\ASP NET MVC WEB API\CreateCodeFirst\CreateCodeFirst\bin\System.Net.Http.Formatting.xml
+C:\Users\vinicius.nunes\Documents\Visual Studio 2017\Projects\ASP NET MVC WEB API\CreateCodeFirst\CreateCodeFirst\bin\System.Web.Http.xml
+C:\Users\vinicius.nunes\Documents\Visual Studio 2017\Projects\ASP NET MVC WEB API\CreateCodeFirst\CreateCodeFirst\bin\System.Web.Http.WebHost.xml
+C:\Users\vinicius.nunes\Documents\Visual Studio 2017\Projects\ASP NET MVC WEB API\CreateCodeFirst\CreateCodeFirst\bin\pt-br\System.Net.Http.Formatting.resources.dll
+C:\Users\vinicius.nunes\Documents\Visual Studio 2017\Projects\ASP NET MVC WEB API\CreateCodeFirst\CreateCodeFirst\bin\pt-br\System.Web.Http.resources.dll
+C:\Users\vinicius.nunes\Documents\Visual Studio 2017\Projects\ASP NET MVC WEB API\CreateCodeFirst\CreateCodeFirst\bin\pt-br\System.Web.Http.WebHost.resources.dll
+C:\Users\vinicius.nunes\Documents\Visual Studio 2017\Projects\ASP NET MVC WEB API\CreateCodeFirst\CreateCodeFirst\obj\Debug\CreateCodeFirst.dll
+C:\Users\vinicius.nunes\Documents\Visual Studio 2017\Projects\ASP NET MVC WEB API\CreateCodeFirst\CreateCodeFirst\obj\Debug\CreateCodeFirst.pdb
+C:\Users\vinicius.nunes\Documents\Visual Studio 2017\Projects\ASP NET MVC WEB API\CreateCodeFirst\CreateCodeFirst\obj\Debug\CreateCodeFirst.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Desktop\Projetos\AspNetTP3\CreateCodeFirst\bin\roslyn\csc.exe
+C:\Users\Administrador\Desktop\Projetos\AspNetTP3\CreateCodeFirst\bin\roslyn\csc.exe.config
+C:\Users\Administrador\Desktop\Projetos\AspNetTP3\CreateCodeFirst\bin\roslyn\csc.rsp
+C:\Users\Administrador\Desktop\Projetos\AspNetTP3\CreateCodeFirst\bin\roslyn\csi.exe
+C:\Users\Administrador\Desktop\Projetos\AspNetTP3\CreateCodeFirst\bin\roslyn\csi.rsp
+C:\Users\Administrador\Desktop\Projetos\AspNetTP3\CreateCodeFirst\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Administrador\Desktop\Projetos\AspNetTP3\CreateCodeFirst\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Administrador\Desktop\Projetos\AspNetTP3\CreateCodeFirst\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Administrador\Desktop\Projetos\AspNetTP3\CreateCodeFirst\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Administrador\Desktop\Projetos\AspNetTP3\CreateCodeFirst\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Administrador\Desktop\Projetos\AspNetTP3\CreateCodeFirst\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Administrador\Desktop\Projetos\AspNetTP3\CreateCodeFirst\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Administrador\Desktop\Projetos\AspNetTP3\CreateCodeFirst\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Administrador\Desktop\Projetos\AspNetTP3\CreateCodeFirst\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Administrador\Desktop\Projetos\AspNetTP3\CreateCodeFirst\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Administrador\Desktop\Projetos\AspNetTP3\CreateCodeFirst\bin\roslyn\System.AppContext.dll
+C:\Users\Administrador\Desktop\Projetos\AspNetTP3\CreateCodeFirst\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Administrador\Desktop\Projetos\AspNetTP3\CreateCodeFirst\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Administrador\Desktop\Projetos\AspNetTP3\CreateCodeFirst\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Administrador\Desktop\Projetos\AspNetTP3\CreateCodeFirst\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Administrador\Desktop\Projetos\AspNetTP3\CreateCodeFirst\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Administrador\Desktop\Projetos\AspNetTP3\CreateCodeFirst\bin\roslyn\vbc.exe
+C:\Users\Administrador\Desktop\Projetos\AspNetTP3\CreateCodeFirst\bin\roslyn\vbc.exe.config
+C:\Users\Administrador\Desktop\Projetos\AspNetTP3\CreateCodeFirst\bin\roslyn\vbc.rsp
+C:\Users\Administrador\Desktop\Projetos\AspNetTP3\CreateCodeFirst\bin\roslyn\VBCSCompiler.exe
+C:\Users\Administrador\Desktop\Projetos\AspNetTP3\CreateCodeFirst\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Administrador\Desktop\Projetos\AspNetTP3\CreateCodeFirst\bin\CreateCodeFirst.dll.config
+C:\Users\Administrador\Desktop\Projetos\AspNetTP3\CreateCodeFirst\bin\CreateCodeFirst.dll
+C:\Users\Administrador\Desktop\Projetos\AspNetTP3\CreateCodeFirst\bin\CreateCodeFirst.pdb
+C:\Users\Administrador\Desktop\Projetos\AspNetTP3\CreateCodeFirst\bin\EntityFramework.dll
+C:\Users\Administrador\Desktop\Projetos\AspNetTP3\CreateCodeFirst\bin\EntityFramework.SqlServer.dll
+C:\Users\Administrador\Desktop\Projetos\AspNetTP3\CreateCodeFirst\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Administrador\Desktop\Projetos\AspNetTP3\CreateCodeFirst\bin\Newtonsoft.Json.dll
+C:\Users\Administrador\Desktop\Projetos\AspNetTP3\CreateCodeFirst\bin\System.Net.Http.Formatting.dll
+C:\Users\Administrador\Desktop\Projetos\AspNetTP3\CreateCodeFirst\bin\System.Web.Http.dll
+C:\Users\Administrador\Desktop\Projetos\AspNetTP3\CreateCodeFirst\bin\System.Web.Http.WebHost.dll
+C:\Users\Administrador\Desktop\Projetos\AspNetTP3\CreateCodeFirst\bin\EntityFramework.xml
+C:\Users\Administrador\Desktop\Projetos\AspNetTP3\CreateCodeFirst\bin\EntityFramework.SqlServer.xml
+C:\Users\Administrador\Desktop\Projetos\AspNetTP3\CreateCodeFirst\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Administrador\Desktop\Projetos\AspNetTP3\CreateCodeFirst\bin\Newtonsoft.Json.xml
+C:\Users\Administrador\Desktop\Projetos\AspNetTP3\CreateCodeFirst\bin\System.Net.Http.Formatting.xml
+C:\Users\Administrador\Desktop\Projetos\AspNetTP3\CreateCodeFirst\bin\System.Web.Http.xml
+C:\Users\Administrador\Desktop\Projetos\AspNetTP3\CreateCodeFirst\bin\System.Web.Http.WebHost.xml
+C:\Users\Administrador\Desktop\Projetos\AspNetTP3\CreateCodeFirst\bin\pt-br\System.Net.Http.Formatting.resources.dll
+C:\Users\Administrador\Desktop\Projetos\AspNetTP3\CreateCodeFirst\bin\pt-br\System.Web.Http.resources.dll
+C:\Users\Administrador\Desktop\Projetos\AspNetTP3\CreateCodeFirst\bin\pt-br\System.Web.Http.WebHost.resources.dll
+C:\Users\Administrador\Desktop\Projetos\AspNetTP3\CreateCodeFirst\obj\Debug\CreateCodeFirst.csprojResolveAssemblyReference.cache
+C:\Users\Administrador\Desktop\Projetos\AspNetTP3\CreateCodeFirst\obj\Debug\CreateCodeFirst.dll
+C:\Users\Administrador\Desktop\Projetos\AspNetTP3\CreateCodeFirst\obj\Debug\CreateCodeFirst.pdb
