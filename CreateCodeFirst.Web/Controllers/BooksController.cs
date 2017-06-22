@@ -40,6 +40,23 @@ namespace CreateCodeFirst.Web.Controllers
             return View("Error");
         }
 
+        public ActionResult Create()
+        {
+            return View(new Book());
+        }
+
+        //The Post method
+        [HttpPost]
+        public async Task<ActionResult> Create(Book book)
+        {
+            HttpResponseMessage responseMessage = await apiClient.PostAsJsonAsync("api/books", book);
+            if (responseMessage.IsSuccessStatusCode)
+            {
+                return RedirectToAction("Index");
+            }
+            return RedirectToAction("Error");
+        }
+
         //// GET: api/Books
         //static async Task GetBooks()
         //{
