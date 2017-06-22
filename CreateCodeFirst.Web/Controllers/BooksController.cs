@@ -6,6 +6,7 @@ using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
 using System.Web.Mvc;
+using System.Web.Script.Serialization;
 
 namespace CreateCodeFirst.Web.Controllers
 {
@@ -25,11 +26,11 @@ namespace CreateCodeFirst.Web.Controllers
         }
 
         // HTTP GET METHOD
-        public async Task<ActionResult> Index()
+        public ActionResult Index()
         {
             List<Book> bookInstanciado = new List<Book>();
 
-            HttpResponseMessage response = await apiClient.GetAsync("api/books");
+            HttpResponseMessage response = apiClient.GetAsync("api/books").Result;
             if (response.IsSuccessStatusCode)
             {
                 var bookResponse = response.Content.ReadAsStringAsync().Result;
@@ -64,7 +65,8 @@ namespace CreateCodeFirst.Web.Controllers
             HttpResponseMessage responseMessage = await apiClient.GetAsync("api/books" + "/" + id);
             if (responseMessage.IsSuccessStatusCode)
             {
-                var bookResponse = responseMessage.Content.ReadAsStringAsync().Result;
+                string bookResponse = responseMessage.Content.ReadAsStringAsync().Result;
+                // var json = new JavaScriptSerializer().Serialize(bookResponse);
                 var bookInstanciado = JsonConvert.DeserializeObject<Book>(bookResponse);
 
                 return View(bookInstanciado);
