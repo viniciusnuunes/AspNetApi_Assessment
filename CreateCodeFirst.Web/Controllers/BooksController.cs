@@ -32,8 +32,8 @@ namespace CreateCodeFirst.Web.Controllers
             HttpResponseMessage response = await apiClient.GetAsync("api/books");
             if (response.IsSuccessStatusCode)
             {
-                var EmpResponse = response.Content.ReadAsStringAsync().Result;
-                bookInstanciado = JsonConvert.DeserializeObject<List<Book>>(EmpResponse);
+                var bookResponse = response.Content.ReadAsStringAsync().Result;
+                bookInstanciado = JsonConvert.DeserializeObject<List<Book>>(bookResponse);
 
                 return View(bookInstanciado);
             }
@@ -57,45 +57,30 @@ namespace CreateCodeFirst.Web.Controllers
             return RedirectToAction("Error");
         }
 
-        //// GET: api/Books
-        //static async Task GetBooks()
-        //{
-        //    HttpResponseMessage response = await apiClient.GetAsync("api/p");
-        //    if (response.IsSuccessStatusCode)
-        //    {
-        //        Book book = await response.Content.ReadAsAsync<Book>();
-        //    }            
-        //}
+        public async Task<ActionResult> Edit(int id)
+        {
+            HttpResponseMessage responseMessage = await apiClient.GetAsync("api/books" + "/" + id);
+            if (responseMessage.IsSuccessStatusCode)
+            {
+                var bookResponse = responseMessage.Content.ReadAsStringAsync().Result;
+                var bookInstanciado = JsonConvert.DeserializeObject<Book>(bookResponse);
 
-        //// GET / api/Books
-        //public ActionResult Create()
-        //{
-        //    return View();
-        //}
+                return View(bookInstanciado);
+            }
+            return View("Error");
+        }
 
-        //// POST
-        //[HttpPost]
-        //static async Task<Uri> CreateProductAsync(Book book)
-        //{
-        //    HttpResponseMessage response = await apiClient.PostAsJsonAsync("api/Book", book);
-        //    response.EnsureSuccessStatusCode();
-
-        //    // Return the URI of the created resource.
-        //    return response.Headers.Location;
-        //}
-
-        //// POST: api/Books
-        //[HttpPost]
-        //public ActionResult Post()
-        //{
-        //    var message = apiClient.GetAsync("api/Books").Result;
-        //    if (message.IsSuccessStatusCode)
-        //    {
-        //        var asd = message.Content.ReadAsStringAsync().Result;
-        //        new System.Web.Script.Serialization.JavaScriptSerializer().Deserialize<Book>(asd);
-        //    }
-        //    return View();
-        //}
+        //The PUT Method
+        [HttpPost]
+        public async Task<ActionResult> Edit(int id, Book book)
+        {
+            HttpResponseMessage responseMessage = await apiClient.PutAsJsonAsync("api/books" + "/" + id, book);
+            if (responseMessage.IsSuccessStatusCode)
+            {
+                return RedirectToAction("Index");
+            }
+            return RedirectToAction("Error");
+        }        
 
         protected override void Dispose(bool disposing)
         {
