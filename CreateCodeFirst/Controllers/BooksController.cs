@@ -39,10 +39,11 @@ namespace CreateCodeFirst.Controllers
             var bookToUpdate = _dataContext.Books.Where(b => b.BookId == book.BookId).SingleOrDefault();
 
             if (book != null)
-            {
-                bookToUpdate.Authors = book.Authors;
+            {                
                 bookToUpdate.Isbn = book.Isbn;
                 bookToUpdate.Title = book.Title;
+                bookToUpdate.Ano = book.Ano;
+                bookToUpdate.Authors = book.Authors;
 
                 _dataContext.SaveChanges();
             }

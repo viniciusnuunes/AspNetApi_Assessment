@@ -13,33 +13,31 @@ namespace CreateCodeFirst.Web.Controllers
     {        
         private static HttpClient apiClient = new HttpClient();
         private DataContext dbContext = new DataContext();
-        private List<Book> bookInfo = new List<Book>();
+        
 
-        public async Task RunAsync()
+        public BooksController()
         {
-            using (apiClient)
-            {
-                apiClient = new HttpClient();                
+            apiClient = new HttpClient();                
 
-                apiClient.BaseAddress = new Uri("http://localhost:64073/");
-                apiClient.DefaultRequestHeaders.Accept.Clear();
-                apiClient.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));                
-            }
+            apiClient.BaseAddress = new Uri("http://localhost:64073/");
+            apiClient.DefaultRequestHeaders.Accept.Clear();
+            apiClient.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
         }
 
         // HTTP GET
         public async Task<ActionResult> Index()
         {
-            using (apiClient)
+            List<Book> bookInstanciado = new List<Book>();
+
+            HttpResponseMessage response = await apiClient.GetAsync("api/books");
+            if (response.IsSuccessStatusCode)
             {
-                HttpResponseMessage response = await apiClient.GetAsync("api/Books");
-                if (response.IsSuccessStatusCode)
-                {
-                    var EmpResponse = response.Content.ReadAsStringAsync().Result;
-                    bookInfo = JsonConvert.DeserializeObject<List<Book>>(EmpResponse);
-                }
-                return View(bookInfo);
+                var EmpResponse = response.Content.ReadAsStringAsync().Result;
+                bookInstanciado = JsonConvert.DeserializeObject<List<Book>>(EmpResponse);
+
+                return View(bookInstanciado);
             }
+            return View("Error");
         }
 
         //// GET: api/Books
