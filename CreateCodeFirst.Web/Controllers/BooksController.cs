@@ -24,7 +24,7 @@ namespace CreateCodeFirst.Web.Controllers
             apiClient.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
         }
 
-        // HTTP GET
+        // HTTP GET METHOD
         public async Task<ActionResult> Index()
         {
             List<Book> bookInstanciado = new List<Book>();
@@ -40,12 +40,13 @@ namespace CreateCodeFirst.Web.Controllers
             return View("Error");
         }
 
+        // POST VIEW
         public ActionResult Create()
         {
             return View(new Book());
         }
 
-        //The Post method
+        // HTTP POST METHOD
         [HttpPost]
         public async Task<ActionResult> Create(Book book)
         {
@@ -57,6 +58,7 @@ namespace CreateCodeFirst.Web.Controllers
             return RedirectToAction("Error");
         }
 
+        // PUT VIEW
         public async Task<ActionResult> Edit(int id)
         {
             HttpResponseMessage responseMessage = await apiClient.GetAsync("api/books" + "/" + id);
@@ -70,7 +72,7 @@ namespace CreateCodeFirst.Web.Controllers
             return View("Error");
         }
 
-        //The PUT Method
+        // HTTP PUT METHOD
         [HttpPost]
         public async Task<ActionResult> Edit(int id, Book book)
         {
@@ -80,7 +82,34 @@ namespace CreateCodeFirst.Web.Controllers
                 return RedirectToAction("Index");
             }
             return RedirectToAction("Error");
-        }        
+        }
+
+        // DELETE VIEW
+        public async Task<ActionResult> Delete(int id)
+        {
+            HttpResponseMessage responseMessage = await apiClient.GetAsync("api/books" + "/" + id);
+            if (responseMessage.IsSuccessStatusCode)
+            {
+                var bookResponse = responseMessage.Content.ReadAsStringAsync().Result;
+
+                var bookInstanciado = JsonConvert.DeserializeObject<Book>(bookResponse);
+
+                return View(bookInstanciado);
+            }
+            return View("Error");
+        }
+
+        // HTTP DELETE METHOD
+        [HttpPost]
+        public async Task<ActionResult> Delete(int id, Book book)
+        {
+            HttpResponseMessage responseMessage = await apiClient.DeleteAsync("api/books" + "/" + id);
+            if (responseMessage.IsSuccessStatusCode)
+            {
+                return RedirectToAction("Index");
+            }
+            return RedirectToAction("Error");
+        }
 
         protected override void Dispose(bool disposing)
         {
